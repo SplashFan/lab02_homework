@@ -1,6 +1,11 @@
 #include <iostream>
+
 using namespace std;
+
 int main(){
-cout<<"Hello, world!";
+	string name;
+	cout<<"Enter your name";
+	getline(cin, name);
+	cout<<"Hello, world from "<<name;
 return 0;
 }
